@@ -1,0 +1,54 @@
+[color]
+	ui = auto
+[alias]
+	ci = commit
+	co = checkout
+	sub = submodule
+	df = diff --ignore-space-change
+	a = add --ignore-removal
+	l = log
+	cl = clone
+	ctags = !.git/hooks/ctags
+	aa = add -A
+	p = pull --no-edit
+	dc = diff --cached --ignore-space-change
+	ob1 = push --force
+	o = browse
+	lf = log --follow
+	pr = pull_request
+	oi = browse -- issues
+	rb = rebase
+	b = branch
+	ba = branch -a
+	bm = branch -a --merged
+	s = status
+	st = stash -u
+	stp = stash pop
+	ob = browse -- branches
+	op = browse -- pulls
+	oc = browse -- commits
+	fp = fetch --prune
+	cia = commit -am
+[user]
+	name = Jared Ning
+	email = jared@redningja.com
+[branch "master"]
+	remote = origin
+	merge = --no-edit --no-ff
+[core]
+	excludesfile = ~/.gitignore_global
+[push]
+	default = current
+[hub]
+	host = gh.fromatob.com
+[github]
+	host = https://gh.fromatob.com
+[pull]
+	rebase = true
+[merge]
+	ff = false
+[remote "origin"]
+	prune = true
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
