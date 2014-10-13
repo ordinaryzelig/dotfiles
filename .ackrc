@@ -1,1 +1,1 @@
-../.ackrc
+--ignore-file=ext:log
