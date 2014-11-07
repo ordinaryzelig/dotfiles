@@ -41,8 +41,6 @@
 	default = current
 [hub]
 	host = gh.fromatob.com
-[github]
-	host = https://gh.fromatob.com
 [pull]
 	rebase = true
 [merge]
