@@ -52,3 +52,18 @@
 [submodule ".vim/bundle/vim-signature"]
 	path = .vim/bundle/vim-signature
 	url = git@github.com:kshenoy/vim-signature.git
+[submodule ".vim/bundle/greplace.vim"]
+	path = .vim/bundle/greplace.vim
+	url = git@github.com:skwp/greplace.vim.git
+[submodule ".vim/bundle/vim-markdown"]
+	path = .vim/bundle/vim-markdown
+	url = git@github.com:tpope/vim-markdown.git
+[submodule ".vim/bundle/vim-merginal"]
+	path = .vim/bundle/vim-merginal
+	url = git@github.com:idanarye/vim-merginal.git
+[submodule ".vim/bundle/vim-rsi"]
+	path = .vim/bundle/vim-rsi
+	url = git@github.com:tpope/vim-rsi.git
+[submodule ".vim/bundle/vim-rubyhash"]
+	path = .vim/bundle/vim-rubyhash
+	url = git@github.com:rorymckinley/vim-rubyhash.git

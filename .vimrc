@@ -70,6 +70,10 @@ set ignorecase
 " Overrides ignorecase if uppercase used in search string.
 set smartcase
 
+" greplace
+set grepprg=ack
+let g:grep_cmd_opts = '--noheading'
+
 let mapleader = ','
 
 " toggle NERDTree
@@ -160,6 +164,9 @@ noremap <Right> <NOP>
 "noremap j <NOP>
 "noremap k <NOP>
 "noremap l <NOP>
+
+" Merginal
+map <Leader>g :Merginal<CR>
 
 " Aliases for fugitive
 command Gci Gcommit
