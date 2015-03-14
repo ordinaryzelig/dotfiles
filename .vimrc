@@ -150,3 +150,9 @@ map <Leader>g :Merginal<CR>
 
 " Aliases for fugitive
 command Gci Gcommit
+
+" vim-rubyhash keymappings.
+" Default ones make <Leader>r slow (reveal in NerdTree).
+let g:rubyhash_map_keys = 0
+noremap <Leader>; :call ToSymbolKeysLinewise()<cr>
+noremap <Leader>- :call To19KeysLinewise()<cr>
