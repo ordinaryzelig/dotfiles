@@ -127,26 +127,6 @@ map <Leader>> :Tab /=><CR>   " by hash rocket
 map <Leader>{ :Tab /{<CR>    " by curly brace
 map <Leader><bar> :Tab /<bar><CR>    " by pipe (for markdown tables)
 
-" restart passenger in current rails app.
-nmap <Leader>R :!touch tmp/restart.txt<CR>
-
-" Source the vimrc file after saving it
-if has("autocmd")
-  autocmd bufwritepost .vimrc source $MYVIMRC
-endif
-
-" vim in irb.
-if has("autocmd")
-  " Enable filetype detection
-  filetype plugin indent on
-
-  " Restore cursor position
-  autocmd BufReadPost *
-    \ if line("'\"") > 1 && line("'\"") <= line("$") |
-    \   exe "normal! g`\"" |
-    \ endif
-endif
-
 " filetypes.
 au BufNewFile,BufRead Guardfile  set filetype=ruby
 au BufNewFile,BufRead Gemfile    set filetype=ruby
