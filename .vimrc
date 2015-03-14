@@ -26,6 +26,7 @@ set expandtab " expand tabs to spaces
 set shiftwidth=2 " normal mode indentation commands use 2 spaces
 set softtabstop=2 " insert mode tab and backspace use 2 spaces
 set tabstop=2 " any actual tab characters occupy 2 spaces
+filetype plugin indent on
 
 " folding.
 " set foldmethod=syntax
