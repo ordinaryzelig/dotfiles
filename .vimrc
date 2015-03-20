@@ -63,9 +63,7 @@ if has("gui_running")
   set transparency=10
 endif
 
-" Directories for swp files
-set backupdir=~/.vim/backup
-set directory=~/.vim/backup
+set noswapfile
 
 set ignorecase
 " Overrides ignorecase if uppercase used in search string.
@@ -109,6 +107,7 @@ nmap <Leader>t :CommandT<CR>
 
 " Ack plugin.
 nmap <Leader>a :Ack! 
+nmap <Leader>A :Ack! "\b
 
 " Indentation.
 vmap <D-]> >gv
