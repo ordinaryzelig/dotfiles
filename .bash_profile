@@ -43,7 +43,7 @@ alias sq="cd ~/dev/projects/fromatob/skynet && bundle exec service_quickies"
 
 # chruby
 source /usr/local/opt/chruby/share/chruby/chruby.sh
-chruby 2.1
+chruby 2.1.2
 source /usr/local/share/chruby/auto.sh
 
 if [ -f `brew --prefix`/etc/bash_completion ]; then
