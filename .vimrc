@@ -28,6 +28,9 @@ set softtabstop=2 " insert mode tab and backspace use 2 spaces
 set tabstop=2 " any actual tab characters occupy 2 spaces
 filetype plugin indent on
 
+" vim-textobj-rubyblock said so.
+set nocompatible
+
 " folding.
 " set foldmethod=syntax
 " set foldlevel=1

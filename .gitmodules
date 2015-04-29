@@ -67,3 +67,9 @@
 [submodule ".vim/bundle/vim-rubyhash"]
 	path = .vim/bundle/vim-rubyhash
 	url = git@github.com:rorymckinley/vim-rubyhash.git
+[submodule ".vim/bundle/vim-textobj-rubyblock"]
+	path = .vim/bundle/vim-textobj-rubyblock
+	url = git@github.com:nelstrom/vim-textobj-rubyblock.git
+[submodule ".vim/bundle/vim-textobj-user"]
+	path = .vim/bundle/vim-textobj-user
+	url = git@github.com:kana/vim-textobj-user.git
