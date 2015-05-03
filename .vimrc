@@ -7,16 +7,7 @@ colorscheme Tomorrow-Night-Bright
 
 set relativenumber
 set number
-set ruler " show me where I am
-" Toggle relative/absolute line number
-function! NumberToggle()
-  if(&relativenumber == 1)
-    set norelativenumber
-  else
-    set relativenumber
-  endif
-endfunc
-nnoremap <C-n> :call NumberToggle()<cr>
+set ruler
 
 set autoread " reload files when changed on disk, i.e. via `git checkout`
 
@@ -77,6 +68,16 @@ set grepprg=ack
 let g:grep_cmd_opts = '--noheading'
 
 let mapleader = ','
+
+" Toggle vertical cursor highlight
+function! CursorcolumnToggle()
+  if(&cursorcolumn == 1)
+    set nocursorcolumn
+  else
+    set cursorcolumn
+  endif
+endfunc
+nnoremap <Leader>v :call CursorcolumnToggle()<cr>
 
 " toggle NERDTree
 nmap <Leader>n :execute 'NERDTreeToggle "' . getcwd() . '"'<CR>
