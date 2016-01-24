@@ -149,9 +149,6 @@ noremap <Right> <NOP>
 "noremap k <NOP>
 "noremap l <NOP>
 
-" Merginal
-command Gb Merginal
-
 " Aliases for fugitive
 command Gci Gcommit
 
