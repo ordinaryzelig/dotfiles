@@ -44,7 +44,7 @@ nnoremap <silent> <Space> :nohlsearch<Bar> :echo<CR>
 
 " Menu tab completion.
 set wildmode:list:longest,list:full
-set wildignore+=*.o,*.obj,.git,*.rbc,*.class,.svn,vendor/gems/*
+set wildignore+=*.o,*.obj,.git,*.rbc,*.class,.svn,vendor/gems/*,tmp/*
 
 " Always show status bar.
 set laststatus=2
