@@ -31,8 +31,6 @@ alias h="heroku"
 alias jw="jasmine-headless-webkit"
 alias ls="ls -al"
 alias o="open"
-alias r="ruby"
-alias sky="cd ~/dev/projects/fromatob/skynet && bundle exec rake pkill && bin/skynet"
 alias v="mvim"
 
 # Bundler "shims" (isn't that what they're called?)
