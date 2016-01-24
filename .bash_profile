@@ -26,6 +26,7 @@ alias be='bundle exec'
 alias bo='bundle open'
 alias cdg='cd $GEM_HOME/gems'
 alias g="hub"
+alias gclean='git checkout master && git branch --merged | grep -v master | xargs git branch -d'
 alias h="heroku"
 alias jw="jasmine-headless-webkit"
 alias ls="ls -al"
