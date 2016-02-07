@@ -124,12 +124,10 @@ nmap <Leader>' cs"'
 " add end in erb.
 nmap <Leader>e o<% end %><ESC>
 
-" Tabular.
-map <Leader>: :Tab /:\zs<CR> " by colon
-map <Leader>= :Tab /=<CR>    " by equal
-map <Leader>> :Tab /=><CR>   " by hash rocket
-map <Leader>{ :Tab /{<CR>    " by curly brace
-map <Leader><bar> :Tab /<bar><CR>    " by pipe (for markdown tables)
+" vim-easy-align.
+vmap <Leader>: :EasyAlign1:<CR>    " by colon
+vmap <Leader>= :EasyAlign=<CR>     " by equal
+vmap <Leader>> :EasyAlign=><CR>    " by hash rocket
 
 " filetypes.
 au BufNewFile,BufRead Guardfile  set filetype=ruby
@@ -157,3 +155,6 @@ command Gci Gcommit
 let g:rubyhash_map_keys = 0
 noremap <Leader>; :call ToSymbolKeysLinewise()<cr>
 noremap <Leader>- :call To19KeysLinewise()<cr>
+
+" Remap to madfije tag navigation easier.
+nmap <C-[> :pop<CR>
