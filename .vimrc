@@ -147,6 +147,9 @@ noremap <Right> <NOP>
 "noremap k <NOP>
 "noremap l <NOP>
 
+" map jk as escape.
+:inoremap jk <esc>
+
 " Aliases for fugitive
 command Gci Gcommit
 
