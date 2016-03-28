@@ -111,7 +111,7 @@ nmap <Leader>t :CommandT<CR>
 
 " Ack plugin.
 nmap <Leader>a :Ack! 
-nmap <Leader>A :Ack! "\b
+nmap <Leader>A viwy:Ack! "\b<C-r>"\b"
 
 " Indentation.
 vmap <D-]> >gv
