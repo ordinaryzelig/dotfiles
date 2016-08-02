@@ -162,3 +162,7 @@ noremap <Leader>- :call To19KeysLinewise()<cr>
 
 " Remap to madfije tag navigation easier.
 nmap <C-[> :pop<CR>
+
+" Substitute shorcuts.
+nmap <Leader>s :s/<C-r><C-w>/  " sub word under cursor.
+nmap <Leader>S :%s/<C-r><C-w>/ " sub word under cursor with "%".
