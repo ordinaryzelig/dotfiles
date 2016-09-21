@@ -155,12 +155,6 @@ noremap <Right> <NOP>
 " Aliases for fugitive
 command Gci Gcommit
 
-" vim-rubyhash keymappings.
-" Default ones make <Leader>r slow (reveal in NerdTree).
-let g:rubyhash_map_keys = 0
-noremap <Leader>; :call ToSymbolKeysLinewise()<cr>
-noremap <Leader>- :call To19KeysLinewise()<cr>
-
 " Remap to madfije tag navigation easier.
 nmap <C-[> :pop<CR>
 

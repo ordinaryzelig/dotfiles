@@ -58,9 +58,6 @@
 [submodule ".vim/bundle/vim-rsi"]
 	path = .vim/bundle/vim-rsi
 	url = git@github.com:tpope/vim-rsi.git
-[submodule ".vim/bundle/vim-rubyhash"]
-	path = .vim/bundle/vim-rubyhash
-	url = git@github.com:rorymckinley/vim-rubyhash.git
 [submodule ".vim/bundle/vim-textobj-rubyblock"]
 	path = .vim/bundle/vim-textobj-rubyblock
 	url = git@github.com:nelstrom/vim-textobj-rubyblock.git
