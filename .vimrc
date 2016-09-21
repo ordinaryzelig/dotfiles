@@ -85,6 +85,7 @@ nmap <Leader>n :execute 'NERDTreeToggle "' . getcwd() . '"'<CR>
 nmap <Leader>r :execute 'NERDTreeFind'<CR>
 " open current dir in finder
 nmap <Leader>o :execute '!open ' getcwd()<CR>
+let NERDTreeIgnore = ['node_modules']
 
 " move around splits more easily.
 map <C-h> <C-w>h
