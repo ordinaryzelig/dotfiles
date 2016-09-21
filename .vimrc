@@ -44,7 +44,7 @@ nnoremap <silent> <Space> :nohlsearch<Bar> :echo<CR>
 
 " Menu tab completion.
 set wildmode:list:longest,list:full
-set wildignore+=*.o,*.obj,.git,*.rbc,*.class,.svn,vendor/gems/*,tmp/*
+set wildignore+=*.o,*.obj,.git,*.rbc,*.class,.svn,vendor/gems/*,tmp/*,node_modules/*
 
 " Always show status bar.
 set laststatus=2
@@ -106,7 +106,7 @@ nmap <Leader>i :setl noai nocin nosi inde=<CR>
 " Command-T window height.
 let g:CommandTMaxHeight=10
 
-" Command-T with flush.
+" Activate Command-T.
 nmap <Leader>t :CommandT<CR>
 
 " Ack plugin.
