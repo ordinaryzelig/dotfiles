@@ -9,6 +9,7 @@ export EDITOR='mvim'
 export GIT_EDITOR='mvim -f -c "au VimLeave * opendiff -a Terminal"'
 #export GIT_EDITOR='mvim'
 export NODE_PATH="/usr/local/lib/node"
+export SHELL=/bin/bash
 
 # git dirty.
 function __git_dirty_indicator__ {
@@ -46,7 +47,7 @@ alias sq="cd ~/dev/projects/fromatob/skynet && bundle exec service_quickies"
 
 # chruby
 source /usr/local/opt/chruby/share/chruby/chruby.sh
-chruby 2.3.0
+chruby 2.3.1
 source /usr/local/share/chruby/auto.sh
 
 if [ -f `brew --prefix`/etc/bash_completion ]; then
