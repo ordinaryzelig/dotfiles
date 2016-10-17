@@ -1,2 +1,3 @@
 --ignore-file=ext:log
 --ignore-dir=tmp
+--type-set=ts:ext:ts
