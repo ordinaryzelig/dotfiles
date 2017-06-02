@@ -50,10 +50,9 @@ alias sq="cd ~/dev/projects/fromatob/skynet && bundle exec service_quickies"
 # chruby
 source /usr/local/opt/chruby/share/chruby/chruby.sh
 source /usr/local/share/chruby/auto.sh
+chruby 2.4.0
 
-if [ -f `brew --prefix`/etc/bash_completion ]; then
-  . `brew --prefix`/etc/bash_completion
-fi
+[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
