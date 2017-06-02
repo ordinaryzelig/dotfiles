@@ -163,3 +163,6 @@ nmap <C-[> :pop<CR>
 nmap <Leader>s :s/<C-r><C-w>/
 " sub word under cursor (%).
 nmap <Leader>S :%s/<C-r><C-w>/
+
+" tap(&method(:ap))
+nmap <Leader>p a.tap(&method(:ap))<ESC>
