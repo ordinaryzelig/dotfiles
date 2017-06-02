@@ -42,6 +42,7 @@ export HISTIGNORE='re'
 # Bundler "shims" (isn't that what they're called?)
 alias foreman="bundle exec foreman"
 alias guard="bundle exec guard"
+alias rails="bin/rails"
 alias rake="bundle exec rake"
 alias rspec="bundle exec rspec"
 alias sq="cd ~/dev/projects/fromatob/skynet && bundle exec service_quickies"
