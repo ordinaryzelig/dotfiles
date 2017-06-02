@@ -1,3 +1,5 @@
 --ignore-file=ext:log
 --ignore-dir=tmp
+--ignore-dir=dist
+--ignore-dir=node_modules
 --type-set=ts:ext:ts
