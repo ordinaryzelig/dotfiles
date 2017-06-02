@@ -4,7 +4,7 @@ export PATH=/Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bi
 # command line prompt
 export PS1='\h:\W\[\033[35m\]$(__git_branch__)\[\033[0m\]$ '
 
-export CDPATH=.:/Users/ningja/dev/projects:/Users/ningja/dev/projects/fromatob:/Users/ningja/:..
+export CDPATH=.:/Users/ningja/dev/projects:/Users/ningja/dev/projects/fromatob:/Users/ningja/dev/projects/tcp:..:/Users/ningja/
 export EDITOR='mvim'
 export GIT_EDITOR='mvim -f -c "au VimLeave * opendiff -a Terminal"'
 #export GIT_EDITOR='mvim'
