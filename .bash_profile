@@ -10,10 +10,11 @@ export GIT_EDITOR='mvim -f -c "au VimLeave * opendiff -a Terminal"'
 #export GIT_EDITOR='mvim'
 export NODE_PATH="/usr/local/lib/node"
 export SHELL=/bin/bash
+#export PATH="$PATH:`yarn global bin`"
 
 # git dirty.
 function __git_dirty_indicator__ {
-  git status 2> /dev/null | tail -n1 | grep -q "working directory clean" || echo "*"
+  git status 2> /dev/null | tail -n1 | grep -q "working tree clean" || echo "*"
 }
 
 # git branch.
