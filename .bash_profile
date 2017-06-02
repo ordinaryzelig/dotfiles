@@ -35,7 +35,7 @@ alias ls="ls -al"
 alias o="open"
 alias v="mvim"
 # Run run last command after clearing screen (like cmd-k).
-alias re='clear; printf "\033[3J"; echo $(fc -ln -1); "$BASH" -c "$(history -p !!)"'
+alias re='clear; printf "\033[3J"; echo $(fc -ln -1); "$SHELL" -c "$(history -p !!)"'
 # Don't count "re" as history so it can be run multiple times in a row.
 export HISTIGNORE='re'
 
