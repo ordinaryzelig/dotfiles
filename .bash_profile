@@ -1,5 +1,5 @@
 # home-brew says to have /usr/local/bin before /usr/bin.
-export PATH=/Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin:/Applications/Postgres.app/Contents/Versions/9.4/bin:/usr/local/bin:/usr/bin:/usr/sbin:/sbin:/bin:/usr/local/share/npm/bin:/usr/local/sbin
+export PATH=/Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/usr/local/bin:/usr/bin:/usr/sbin:/sbin:/bin:/usr/local/share/npm/bin:/usr/local/sbin
 
 # command line prompt
 export PS1='\h:\W\[\033[35m\]$(__git_branch__)\[\033[0m\]$ '
