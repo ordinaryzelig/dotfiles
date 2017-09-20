@@ -132,12 +132,13 @@ vmap <Leader>> :EasyAlign=><CR> " by hash rocket
 vmap <Leader>{ :EasyAlign{<CR>  " by open curly brace
 
 " filetypes.
-au BufNewFile,BufRead Guardfile  set filetype=ruby
-au BufNewFile,BufRead Gemfile    set filetype=ruby
-au BufNewFile,BufRead *.gemspec  set filetype=ruby
-au BufNewFile,BufRead Skyfile    set filetype=ruby
-au BufNewFile,BufRead *.master   set filetype=ruby
-au BufRead,BufNewFile *.md       set filetype=markdown
+au BufNewFile,BufRead Guardfile   set filetype=ruby
+au BufNewFile,BufRead Gemfile     set filetype=ruby
+au BufNewFile,BufRead *.gemspec   set filetype=ruby
+au BufNewFile,BufRead Skyfile     set filetype=ruby
+au BufNewFile,BufRead *.master    set filetype=ruby
+au BufRead,BufNewFile *.md        set filetype=markdown
+au BufRead,BufNewFile *.yml.enc.* set filetype=yaml
 
 " disable cursors
 noremap <Up> <NOP>
