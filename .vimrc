@@ -167,3 +167,4 @@ nmap <Leader>S :%s/<C-r><C-w>/
 
 " tap(&method(:ap))
 nmap <Leader>p a.tap(&method(:ap))<ESC>
+nmap <Leader>P A.tap(&method(:ap))<ESC>
