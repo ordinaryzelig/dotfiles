@@ -40,7 +40,6 @@ alias re='clear; printf "\033[3J"; echo $(fc -ln -1); "$SHELL" -c "$(history -p 
 export HISTIGNORE='re'
 
 # Bundler "shims" (isn't that what they're called?)
-alias foreman="bundle exec foreman"
 alias guard="bundle exec guard"
 alias rails="bin/rails"
 alias rake="bundle exec rake"
