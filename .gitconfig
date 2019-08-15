@@ -5,6 +5,7 @@
 	co = checkout
 	sub = submodule
 	df = diff --ignore-space-change
+	dfw = diff --ignore-space-change --word-diff
 	a = add --ignore-removal
 	l = log
 	cl = clone
