@@ -101,15 +101,6 @@ nmap <Leader>d yyp
 " duplicate selection
 vmap <Leader>d yP
 
-" disable auto indent.
-nmap <Leader>i :setl noai nocin nosi inde=<CR>
-
-" Command-T window height.
-let g:CommandTMaxHeight=10
-
-" Activate Command-T.
-nmap <Leader>t :CommandT<CR>
-
 " Ack plugin.
 nmap <Leader>a :Ack! 
 nmap <Leader>A viwy:Ack! "\b<C-r>"\b"
