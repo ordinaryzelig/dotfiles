@@ -25,7 +25,6 @@
 	s = status
 	st = stash -u
 	stp = stash pop
-	ob = browse -- branches
 	op = browse -- pulls
 	oc = browse -- commits
 	fp = fetch --prune
