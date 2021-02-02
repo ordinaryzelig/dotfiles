@@ -44,7 +44,6 @@ alias sq="cd ~/dev/projects/fromatob/skynet && bundle exec service_quickies"
 # chruby
 source /usr/local/opt/chruby/share/chruby/chruby.sh
 source /usr/local/share/chruby/auto.sh
-chruby 2.7.0
 
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
