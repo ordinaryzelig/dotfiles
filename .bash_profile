@@ -2,7 +2,7 @@
 export PATH=/Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/usr/local/bin:/usr/bin:/usr/sbin:/sbin:/bin:/usr/local/share/npm/bin:/usr/local/sbin
 
 # command line prompt
-export PS1='\h:\W\[\033[35m\]$(__git_branch__)\[\033[0m\]$ '
+export PS1='\h:\W\e[35m\]$(__git_branch__)\e[0m\]$ '
 
 export CDPATH=.:/Users/ningja/dev/projects:/Users/ningja/dev/projects/fromatob:/Users/ningja/dev/projects/tcp:..:/Users/ningja/
 export EDITOR='mvim'
