@@ -2,4 +2,5 @@
 --ignore-dir=tmp
 --ignore-dir=dist
 --ignore-dir=node_modules
+--ignore-dir=public/packs
 --type-set=ts:ext:ts
