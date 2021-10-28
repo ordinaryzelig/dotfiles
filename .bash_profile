@@ -9,6 +9,8 @@ export EDITOR='mvim'
 export GIT_EDITOR='mvim -f -c "au VimLeave * opendiff -a Terminal"'
 export NODE_PATH="/usr/local/lib/node"
 export SHELL=/bin/bash
+# Don't count "re" as history so it can be run multiple times in a row.
+export HISTIGNORE='re'
 
 # git dirty.
 function __git_dirty_indicator__ {
@@ -28,18 +30,10 @@ alias g="hub"
 alias h="heroku"
 alias ls="ls -al"
 alias o="open"
-alias v="mvim"
 # Run run last command after clearing screen (like cmd-k).
 alias re='clear; printf "\033[3J"; echo $(fc -ln -1); "$SHELL" -c "$(history -p !!)"'
-# Don't count "re" as history so it can be run multiple times in a row.
-export HISTIGNORE='re'
-
-# Bundler "shims" (isn't that what they're called?)
-alias guard="bundle exec guard"
-alias rails="bin/rails"
-alias rake="bundle exec rake"
-alias rspec="bundle exec rspec"
-alias sq="cd ~/dev/projects/fromatob/skynet && bundle exec service_quickies"
+alias v="mvim"
+alias rails="bundle exec rails"
 
 # chruby
 source /usr/local/opt/chruby/share/chruby/chruby.sh
