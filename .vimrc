@@ -147,9 +147,6 @@ noremap <Right> <NOP>
 " Aliases for fugitive
 command Gci Gcommit
 
-" Remap to madfije tag navigation easier.
-nmap <C-[> :pop<CR>
-
 " Substitute shorcuts.
 " sub word under cursor.
 nmap <Leader>s :s/<C-r><C-w>/
