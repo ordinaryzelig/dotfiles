@@ -117,10 +117,10 @@ nmap <Leader>' cs"'
 nmap <Leader>e o<% end %><ESC>
 
 " vim-easy-align.
-vmap <Leader>: :EasyAlign1:<CR> " by colon
-vmap <Leader>= :EasyAlign=<CR>  " by equal
-vmap <Leader>> :EasyAlign=><CR> " by hash rocket
-vmap <Leader>{ :EasyAlign{<CR>  " by open curly brace
+vmap <Leader>: :EasyAlign1:<CR>| " by colon
+vmap <Leader>= :EasyAlign=<CR>|  " by equal
+vmap <Leader>> :EasyAlign=><CR>| " by hash rocket
+vmap <Leader>{ :EasyAlign{<CR>|  " by open curly brace
 
 " filetypes.
 au BufNewFile,BufRead Guardfile   set filetype=ruby
