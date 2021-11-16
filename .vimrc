@@ -3,7 +3,7 @@ execute pathogen#infect()
 
 filetype plugin on
 syntax enable
-colorscheme Tomorrow-Night-Bright
+colorscheme base16-default-dark
 
 set relativenumber
 set number
