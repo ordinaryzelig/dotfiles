@@ -1,6 +1,7 @@
 export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:/Applications/MacVim.app/Contents/bin:$PATH"
 export PATH="/opt/homebrew/opt/node@16/bin:$PATH"
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+export EDITOR='mvim -f --nomru -c "au VimLeave * !open -a Terminal"'
 
 # Command line prompt.
 # export PS1='\h:\W\[\033[35m\]$(__git_branch__)\[\033[0m\]$ '
