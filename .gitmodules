@@ -58,9 +58,6 @@
 [submodule ".vim/bundle/vim-easy-align"]
 	path = .vim/bundle/vim-easy-align
 	url = git@github.com:junegunn/vim-easy-align.git
-[submodule ".vim/bundle/typescript-vim"]
-	path = .vim/bundle/typescript-vim
-	url = git@github.com:leafgarland/typescript-vim.git
 [submodule ".vim/bundle/ctrlp.vim"]
 	path = .vim/bundle/ctrlp.vim
 	url = git@github.com:kien/ctrlp.vim.git
