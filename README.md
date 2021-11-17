@@ -1,2 +1,21 @@
+## Setup
+
 * Clone as `~/.dotfiles`
-* symlink each to `~/.`
+* symlink each to `~/.` (e.g. "cd & ln -s .dotfiles/.gitignore .")
+  * .zshrc
+  * .gitconfig
+  * etc. (TODO: script)
+* VIM bundles:
+  * Install pathogen: https://github.com/tpope/vim-pathogen.
+  * Clone bundles and update to latest: `git submodule init & git submodule update --remote`.
+
+## Add a new VIM bundle
+
+- `git submodule add git@github.com:chriskempson/base16-vim.git`
+- More?
+
+## Remove VIM bundle
+
+- `git submodule deinit .vim/bundle/[name]`
+- `git rm .git/modules/.vim/bundle/[name]`
+- Commit.
