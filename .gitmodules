@@ -4,18 +4,12 @@
 [submodule ".vim/bundle/ack"]
 	path = .vim/bundle/ack
 	url = git@github.com:mileszs/ack.vim.git
-[submodule ".vim/bundle/command-t"]
-	path = .vim/bundle/command-t
-	url = git@github.com:wincent/command-t.git
 [submodule ".vim/bundle/matchit.zip"]
 	path = .vim/bundle/matchit.zip
 	url = git@github.com:vim-scripts/matchit.zip.git
 [submodule ".vim/bundle/nerdtree"]
 	path = .vim/bundle/nerdtree
 	url = git@github.com:scrooloose/nerdtree.git
-[submodule ".vim/bundle/vim-slim"]
-	path = .vim/bundle/vim-slim
-	url = git@github.com:slim-template/vim-slim.git
 [submodule ".vim/bundle/vim-coffee-script"]
 	path = .vim/bundle/vim-coffee-script
 	url = git@github.com:kchmck/vim-coffee-script.git
@@ -40,9 +34,6 @@
 [submodule ".vim/bundle/vim-css-color"]
 	path = .vim/bundle/vim-css-color
 	url = git@github.com:ap/vim-css-color.git
-[submodule ".vim/vim-signature"]
-	path = .vim/vim-signature
-	url = git@github.com:kshenoy/vim-signature.git
 [submodule ".vim/bundle/vim-signature"]
 	path = .vim/bundle/vim-signature
 	url = git@github.com:kshenoy/vim-signature.git
