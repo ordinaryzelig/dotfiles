@@ -1,23 +1,26 @@
 export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:/Applications/MacVim.app/Contents/bin:$PATH"
 export PATH="/opt/homebrew/opt/node@16/bin:$PATH"
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+
 export EDITOR='mvim -f --nomru -c "au VimLeave * !open -a Terminal"'
 
 # Command line prompt.
-# export PS1='\h:\W\[\033[35m\]$(__git_branch__)\[\033[0m\]$ '
+setopt PROMPT_SUBST
+autoload -U colors && colors
+export PROMPT='%{$fg_bold[white]%}%m %{$fg[yellow]%}%1~%{$fg_bold[magenta]%}$(__git_branch__)%{$reset_color%}$ '
 
 # git dirty.
 function __git_dirty_indicator__ {
   git status 2> /dev/null | tail -n1 | grep -q "working tree clean" || echo "*"
 }
 
-setopt auto_cd
-cdpath=($HOME $HOME/dev/projects $HOME/dev/projects/tcp)
-
 # git branch.
 function __git_branch__ {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/ \1$(__git_dirty_indicator__)/"
 }
+
+#setopt auto_cd
+#cdpath=($HOME $HOME/dev/projects $HOME/dev/projects/tcp)
 
 alias b='bundle'
 alias bc='bundle console'
