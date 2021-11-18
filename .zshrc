@@ -37,7 +37,7 @@ alias o="open"
 # Run run last command after clearing screen (like cmd-k).
 alias re='clear; printf "\033[3J"; echo $(fc -ln -1); "$SHELL" -c "$(history -p !!)"'
 alias v="mvim"
-alias rails="bundle exec rails"
+alias rails="bin/rails"
 
 # chruby
 source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
