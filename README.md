@@ -19,3 +19,9 @@
 - `git submodule deinit .vim/bundle/[name]`
 - `git rm .git/modules/.vim/bundle/[name]`
 - Commit.
+
+## Ruby
+
+- Install ruby via homebrew.
+- Install chruby via homebrew.
+- Symlink rubies installed via homebrew into ~/.rubies. Start new console and check if `chruby` lists them correctly.
