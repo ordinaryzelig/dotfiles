@@ -22,6 +22,10 @@ function __git_branch__ {
 #setopt auto_cd
 #cdpath=($HOME $HOME/dev/projects $HOME/dev/projects/tcp)
 
+# Word breaks.
+autoload -U select-word-style
+select-word-style bash
+
 alias b='bundle'
 alias bc='bundle console'
 alias be='bundle exec'
