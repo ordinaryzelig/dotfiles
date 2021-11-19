@@ -11,8 +11,9 @@
 
 ## Add a new VIM bundle
 
-- `git submodule add git@github.com:chriskempson/base16-vim.git`
-- More?
+- `git submodule add git@github.com:chriskempson/base16-vim.git .vim/bundle`
+- `git submodule update` to checkout?
+- Commit.
 
 ## Remove VIM bundle
 
