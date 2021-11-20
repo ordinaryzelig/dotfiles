@@ -37,7 +37,7 @@ alias h="heroku"
 alias ls="ls -al"
 alias o="open"
 # Run run last command after clearing screen (like cmd-k).
-alias re='clear; printf "\033[3J"; echo $(fc -ln -1); "$SHELL" -c "$(history -p !!)"'
+alias re='clear; fc -e -'
 alias v="mvim"
 alias rails="bin/rails"
 
