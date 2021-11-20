@@ -19,8 +19,10 @@ function __git_branch__ {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/ \1$(__git_dirty_indicator__)/"
 }
 
-#setopt auto_cd
-#cdpath=($HOME $HOME/dev/projects $HOME/dev/projects/tcp)
+# Turn on autocomplete.
+autoload -Uz compinit && compinit
+
+cdpath=($HOME $HOME/dev/projects $HOME/dev/projects/tcp ..)
 
 # Word breaks.
 autoload -U select-word-style
