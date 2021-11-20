@@ -37,9 +37,12 @@ alias h="heroku"
 alias ls="ls -al"
 alias o="open"
 # Run run last command after clearing screen (like cmd-k).
-alias re='clear; fc -e -'
+alias re='clear; fc -e -' # Use with leading space to not add to history.
 alias v="mvim"
 alias rails="bin/rails"
+
+setopt HIST_IGNORE_SPACE
+setopt histignoredups
 
 # chruby
 source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
