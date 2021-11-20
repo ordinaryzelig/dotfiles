@@ -36,7 +36,7 @@
 	remote = origin
 	merge = --no-edit --no-ff
 [core]
-	excludesfile = ~/.gitignore_global
+	excludesfile = ~/.dotfiles/gitignore_global
 [push]
 	default = current
 [hub]
