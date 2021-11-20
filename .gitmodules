@@ -1,63 +1,63 @@
 [submodule ".vim/bundle/nerdcommenter"]
-	path = .vim/bundle/nerdcommenter
+	path = symlink/vim/bundle/nerdcommenter
 	url = git@github.com:scrooloose/nerdcommenter.git
 [submodule ".vim/bundle/ack"]
-	path = .vim/bundle/ack
+	path = symlink/vim/bundle/ack
 	url = git@github.com:mileszs/ack.vim.git
 [submodule ".vim/bundle/matchit.zip"]
-	path = .vim/bundle/matchit.zip
+	path = symlink/vim/bundle/matchit.zip
 	url = git@github.com:vim-scripts/matchit.zip.git
 [submodule ".vim/bundle/nerdtree"]
-	path = .vim/bundle/nerdtree
+	path = symlink/vim/bundle/nerdtree
 	url = git@github.com:scrooloose/nerdtree.git
 [submodule ".vim/bundle/vim-coffee-script"]
-	path = .vim/bundle/vim-coffee-script
+	path = symlink/vim/bundle/vim-coffee-script
 	url = git@github.com:kchmck/vim-coffee-script.git
 [submodule ".vim/bundle/vim-endwise"]
-	path = .vim/bundle/vim-endwise
+	path = symlink/vim/bundle/vim-endwise
 	url = git@github.com:tpope/vim-endwise.git
 [submodule ".vim/bundle/vim-fugitive"]
-	path = .vim/bundle/vim-fugitive
+	path = symlink/vim/bundle/vim-fugitive
 	url = git@github.com:tpope/vim-fugitive.git
 [submodule ".vim/bundle/vim-rails"]
-	path = .vim/bundle/vim-rails
+	path = symlink/vim/bundle/vim-rails
 	url = git@github.com:tpope/vim-rails.git
 [submodule ".vim/bundle/vim-surround"]
-	path = .vim/bundle/vim-surround
+	path = symlink/vim/bundle/vim-surround
 	url = git@github.com:tpope/vim-surround.git
 [submodule ".vim/bundle/vim-pathogen"]
-	path = .vim/bundle/vim-pathogen
+	path = symlink/vim/bundle/vim-pathogen
 	url = git@github.com:tpope/vim-pathogen.git
 [submodule ".vim/bundle/vim-css-color"]
-	path = .vim/bundle/vim-css-color
+	path = symlink/vim/bundle/vim-css-color
 	url = git@github.com:ap/vim-css-color.git
 [submodule ".vim/bundle/vim-signature"]
-	path = .vim/bundle/vim-signature
+	path = symlink/vim/bundle/vim-signature
 	url = git@github.com:kshenoy/vim-signature.git
 [submodule ".vim/bundle/greplace.vim"]
-	path = .vim/bundle/greplace.vim
+	path = symlink/vim/bundle/greplace.vim
 	url = git@github.com:skwp/greplace.vim.git
 [submodule ".vim/bundle/vim-markdown"]
-	path = .vim/bundle/vim-markdown
+	path = symlink/vim/bundle/vim-markdown
 	url = git@github.com:tpope/vim-markdown.git
 [submodule ".vim/bundle/vim-rsi"]
-	path = .vim/bundle/vim-rsi
+	path = symlink/vim/bundle/vim-rsi
 	url = git@github.com:tpope/vim-rsi.git
 [submodule ".vim/bundle/vim-textobj-rubyblock"]
-	path = .vim/bundle/vim-textobj-rubyblock
+	path = symlink/vim/bundle/vim-textobj-rubyblock
 	url = git@github.com:nelstrom/vim-textobj-rubyblock.git
 [submodule ".vim/bundle/vim-tags"]
-	path = .vim/bundle/vim-tags
+	path = symlink/vim/bundle/vim-tags
 	url = https://github.com/szw/vim-tags.git
 [submodule ".vim/bundle/vim-easy-align"]
-	path = .vim/bundle/vim-easy-align
+	path = symlink/vim/bundle/vim-easy-align
 	url = git@github.com:junegunn/vim-easy-align.git
 [submodule ".vim/bundle/ctrlp.vim"]
-	path = .vim/bundle/ctrlp.vim
+	path = symlink/vim/bundle/ctrlp.vim
 	url = git@github.com:kien/ctrlp.vim.git
 [submodule ".vim/bundle/base16-vim"]
-	path = .vim/bundle/base16-vim
+	path = symlink/vim/bundle/base16-vim
 	url = git@github.com:chriskempson/base16-vim.git
 [submodule ".vim/bundle/vim-textobj-user"]
-	path = .vim/bundle/vim-textobj-user
+	path = symlink/vim/bundle/vim-textobj-user
 	url = git@github.com:kana/vim-textobj-user.git
