@@ -1,7 +1,8 @@
 export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:/Applications/MacVim.app/Contents/bin:$PATH"
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 
-export EDITOR='mvim -f --nomru -c "au VimLeave * !open -a Terminal"'
+export EDITOR='mvim'
+export GIT_EDITOR='mvim -f --nomru -c "au VimLeave * !open -a Terminal"'
 
 # Command line prompt.
 setopt PROMPT_SUBST
