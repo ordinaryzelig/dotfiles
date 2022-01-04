@@ -1,6 +1,6 @@
-require 'irb/completion'
 IRB.conf[:SAVE_HISTORY] = 50
 IRB.conf[:PROMPT_MODE] = :SIMPLE
+IRB.conf[:USE_AUTOCOMPLETE] = false
 
 # Load local .irbrc relative to Dir.pwd.
 unless Dir.pwd == ENV['HOME']
