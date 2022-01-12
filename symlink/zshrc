@@ -8,6 +8,7 @@ export GIT_EDITOR='mvim -f --nomru -c "au VimLeave * !open -a Terminal"'
 setopt PROMPT_SUBST
 autoload -U colors && colors
 export PROMPT='%{$fg_bold[white]%}%m %{$fg[yellow]%}%1~%{$fg_bold[magenta]%}$(__git_branch__)%{$reset_color%}$ '
+unset zle_bracketed_paste
 
 # git dirty.
 function __git_dirty_indicator__ {
