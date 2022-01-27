@@ -54,7 +54,7 @@ set backspace=indent,eol,start
 
 " Transparency.
 if has("gui_running")
-  set transparency=10
+  set transparency=1
 endif
 
 set noswapfile
