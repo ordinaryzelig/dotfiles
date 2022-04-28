@@ -45,7 +45,7 @@ alias h="heroku"
 alias ls="ls -al"
 alias o="open"
 # Run run last command after clearing screen (like cmd-k).
-alias re='clear; fc -e -' # Use with leading space to not add to history.
+alias re='printf "\ec\e[3J"; fc -e -' # Use with leading space to not add to history.
 alias v="mvim"
 alias rails="bin/rails"
 
