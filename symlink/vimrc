@@ -4,6 +4,7 @@ execute pathogen#infect()
 filetype plugin on
 syntax enable
 colorscheme base16-default-dark
+set guifont=Menlo\ Regular:h13 " Slightly larger.
 
 set relativenumber
 set number
