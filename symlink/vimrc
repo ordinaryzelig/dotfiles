@@ -3,7 +3,18 @@ execute pathogen#infect()
 
 filetype plugin on
 syntax enable
+
+" Color, customization.
 colorscheme base16-default-dark
+function! s:base16_customize() abort
+  call Base16hi("Comment", "666666", "", "20", "", "", "")
+endfunction
+
+augroup on_change_colorschema
+  autocmd!
+  autocmd ColorScheme * call s:base16_customize()
+augroup END
+
 set guifont=Menlo\ Regular:h13 " Slightly larger.
 
 set relativenumber
