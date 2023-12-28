@@ -47,6 +47,7 @@ alias o="open"
 # Run run last command after clearing screen (like cmd-k).
 alias rails="bin/rails"
 alias re='printf "\ec\e[3J"; fc -e -' # Use with leading space to not add to history.
+alias rtn="rails test -n"
 alias v="mvim"
 
 setopt HIST_IGNORE_SPACE
