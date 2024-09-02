@@ -157,7 +157,7 @@ noremap <Right> <NOP>
 :inoremap jk <esc>
 
 " Aliases for fugitive
-command Gci Gcommit
+command Gci Git commit
 
 " Substitute shorcuts.
 " sub word under cursor.
