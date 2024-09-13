@@ -158,6 +158,7 @@ noremap <Right> <NOP>
 
 " Aliases for fugitive
 command Gci Git commit
+command Gblame Git blame
 
 " Substitute shorcuts.
 " sub word under cursor.
