@@ -13,7 +13,7 @@
 	aa = add -A
 	p = pull --no-edit
 	dc = diff --cached --ignore-space-change
-	ob1 = push --force
+	ob1 = push --force-with-lease
 	o = browse
 	lf = log --follow
 	pr = pull_request
