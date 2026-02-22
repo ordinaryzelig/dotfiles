@@ -171,3 +171,6 @@ nmap <Leader>p a.tap(&method(:ap))<ESC>
 nmap <Leader>P A.tap(&method(:ap))<ESC>
 
 let g:ctrlp_custom_ignore = 'tmp/cache'
+
+" consider dash as part of word for autocomplete for styling.
+autocmd FileType css,scss,sass setlocal iskeyword+=-
