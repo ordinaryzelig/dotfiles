@@ -99,6 +99,10 @@ nmap <Leader>r :execute 'NERDTreeFind'<CR>
 nmap <Leader>o :execute '!open ' getcwd()<CR>
 let NERDTreeIgnore = ['node_modules']
 
+" NERD Commenter.
+let g:NERDSpaceDelims = 1
+let g:NERDDefaultAlign = 'left'
+
 " move around splits more easily.
 map <C-h> <C-w>h
 map <C-j> <C-w>j
