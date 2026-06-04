@@ -178,3 +178,12 @@ let g:ctrlp_custom_ignore = 'tmp/cache'
 
 " consider dash as part of word for autocomplete for styling.
 autocmd FileType css,scss,sass setlocal iskeyword+=-
+
+" Warn of deeply nested (>5 levels) SASS with highlighting.
+augroup SassIndentHighlight
+  autocmd!
+  " Define a custom error color for the overflow
+  autocmd FileType sass,scss highlight SassIndentError ctermbg=red guibg=red
+  " Match exactly 11 or more spaces at the start of a line
+  autocmd FileType sass,scss match SassIndentError /^\s\{11,\}@extend/
+augroup END
