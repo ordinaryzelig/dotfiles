@@ -185,5 +185,5 @@ augroup SassIndentHighlight
   " Define a custom error color for the overflow
   autocmd FileType sass,scss highlight SassIndentError ctermbg=red guibg=red
   " Match exactly 11 or more spaces at the start of a line
-  autocmd FileType sass,scss match SassIndentError /^\s\{11,\}@extend/
+  autocmd FileType sass,scss match SassIndentError /^\s\{9,\}@extend/
 augroup END
