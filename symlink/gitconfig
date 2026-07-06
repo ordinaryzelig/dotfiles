@@ -11,6 +11,7 @@
 	cl = clone
 	ctags = !.git/hooks/ctags
 	aa = add -A
+	an = add -N .
 	p = pull --no-edit
 	dc = diff --cached --ignore-space-change
 	ob1 = push --force-with-lease
