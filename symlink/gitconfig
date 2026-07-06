@@ -38,6 +38,7 @@
 	merge = --no-edit --no-ff
 [core]
 	excludesfile = ~/.dotfiles/gitignore_global
+	autocrlf = input
 [push]
 	default = current
 [hub]
